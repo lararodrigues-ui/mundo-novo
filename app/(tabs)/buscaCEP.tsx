@@ -6,13 +6,13 @@ export default function BuscaCEP() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Consulte seu CEP</Text>
+      <Text style={styles.title}>Consulte o destino da sua viagem!</Text>
 
       <TextInput
         style={styles.textinput}
         value={cep}
         onChangeText={setCep}
-        placeholder="Digite o CEP"
+        placeholder="Digite os CEP"
         keyboardType="numeric"
         placeholderTextColor="#777"
       />

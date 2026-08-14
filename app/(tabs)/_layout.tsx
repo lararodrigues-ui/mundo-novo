@@ -46,7 +46,7 @@ export default function TabLayout() {
     }}
  />
     <Tabs.Screen name="buscaCEP" 
-    options={{ title: 'CEP', 
+    options={{ title: 'DESTINO', 
     tabBarIcon: ({ color, focused }) => (
       <Ionicons name={focused ? 'location' : 'location-outline'} color={color} size={24} />
       ),
